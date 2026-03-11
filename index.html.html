@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Love</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Georgia, serif;
+background:#f5f1e6;
+color:#222;
+text-align:center;
+}
+
+/* START SCREEN */
+
+#startScreen{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:#f5f1e6;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+z-index:10;
+cursor:pointer;
+}
+
+.start-text{
+font-size:28px;
+max-width:600px;
+line-height:1.5;
+}
+
+/* MAIN CONTENT */
+
+#mainContent{
+display:none;
+}
+
+.title{
+margin-top:40px;
+}
+
+.title h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.subtitle{
+font-style:italic;
+margin-bottom:40px;
+}
+
+/* COMIC PAGE */
+
+.page{
+max-width:850px;
+margin:40px auto;
+border:3px solid black;
+padding:30px;
+background:white;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.comic-image{
+width:100%;
+margin-top:20px;
+border:3px solid black;
+background:white;
+}
+
+/* FINAL MESSAGE */
+
+.final-message{
+margin:100px auto;
+padding:60px 20px;
+max-width:700px;
+background:#fff;
+border:3px solid black;
+text-align:center;
+}
+
+.final-message h2{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.final-message p{
+font-size:26px;
+color:#c33;
+}
+
+.footer{
+margin:60px 0;
+font-size:14px;
+color:#555;
+}
+
+</style>
+
+<script>
+
+function startStory(){
+document.getElementById("startScreen").style.display="none";
+document.getElementById("mainContent").style.display="block";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<!-- START SCREEN -->
+
+<div id="startScreen" onclick="startStory()">
+
+<div class="start-text">
+
+For the girl who changed my life ❤️  
+<br><br>
+Tap to start our story
+
+</div>
+
+</div>
+
+
+<!-- MAIN STORY -->
+
+<div id="mainContent">
+
+<div class="title">
+
+<h1>OUR LOVE</h1>
+<p class="subtitle">A comic story by Siddharth</p>
+
+</div>
+
+
+<div class="page">
+<h2>Chapter 1 — November 5</h2>
+<img src="page1.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 2 — November 9</h2>
+<img src="page2.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 3</h2>
+<img src="page3.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 4</h2>
+<img src="page4.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 5</h2>
+<img src="page5.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 6 — Anniversary</h2>
+<img src="page6.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 7</h2>
+<img src="page7.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 8</h2>
+<img src="page8.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 9</h2>
+<img src="page9.png" class="comic-image">
+</div>
+
+
+<div class="page">
+<h2>Chapter 10 — First Date</h2>
+<img src="page10.png" class="comic-image">
+</div>
+
+
+<!-- FINAL MESSAGE -->
+
+<div class="final-message">
+
+<h2>To be continued…</h2>
+<p>with you ❤️</p>
+
+</div>
+
+
+<div class="footer">
+
+Made with love ❤️
+
+</div>
+
+</div>
+
+</body>
+</html>
